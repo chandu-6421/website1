@@ -1,0 +1,171 @@
+body {
+    background-color: #fff7fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #59404d;
+}
+
+header {
+    background-color: #b76e86;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    font-family: Georgia;
+    font-size: 35px;
+    color: white;
+}
+
+nav {
+    background-color: #f3dce5;
+    padding: 15px;
+}
+
+nav a {
+    color: #75475a;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b04470;
+}
+
+section {
+    background-color: #ffffff;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid #e8c5d2;
+    border-radius: 12px;
+}
+
+.home {
+    text-align: center;
+    padding: 60px;
+    background-color: #f9e8ee;
+}
+
+.home h1, h2 {
+    color: #98516d;
+}
+
+h3 {
+    color: #b76e86;
+}
+
+.box {
+    display: inline-block;
+    background-color: #f8e9ef;
+    width: 35%;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #e8c5d2;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #bd7892;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #96516d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dfb8c7;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ead0db;
+    color: #75475a;
+}
+
+tr:nth-child(even) {
+    background-color: #fff5f8;
+}
+
+button {
+    background-color: #bd7892;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 25px;
+}
+
+button:hover {
+    background-color: #96516d;
+}
+
+footer {
+    background-color: #b76e86;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media(max-width:600px) {
+    .box {
+        width: 80%;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+}
+
+@media print {
+    header, footer, button {
+        display: none;
+    }
+
+    body, section {
+        background-color: white;
+    }
+}
+/* Main Heading */
+header h1{
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navigation Bar */
+nav a{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Section Headings */
+h2{
+    font-family: "Palatino Linotype", serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+/* Sub Headings */
+h3{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
