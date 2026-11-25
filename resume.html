@@ -1,81 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume | Chandana C M</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="script.js" defer></script>
 </head>
 <body>
 
-<header>
-<h1>My Resume</h1>
+<header class="site-header">
+<a class="brand" href="index.html">bloom<span>.</span></a>
 <nav>
 <a href="index.html">Home</a>
-<a href="resume.html">Resume</a>
+<a class="active" href="resume.html">Resume</a>
 <a href="biodata.html">Bio-data</a>
 </nav>
 </header>
 
-<section>
-<h2>Personal Profile</h2>
-<h3>Chandana C M</h3>
-<p>Course: Computer Science Engineering</p>
-<p>College: Rajeev Institute of Technology</p>
-<p>Email: cc6672975@gmail.com</p>
-<p>Phone: 9110463341</p>
+<main class="inner-page">
+
+<div class="page-top">
+<div>
+<p class="eyebrow">THE PROFESSIONAL SIDE</p>
+<h1>My <em>Resume</em></h1>
+<p class="page-lead">A snapshot of my education, interests and growing technical skills.</p>
+</div>
+<div class="mini-flower">✿</div>
+</div>
+
+<section class="profile-strip">
+<div class="small-photo">
+<img src="photo.jpg" alt="Chandana" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<span>CM</span>
+</div>
+
+<div>
+<h2>Chandana C M</h2>
+<p>Computer Science Engineering Student</p>
+<p class="contact-line">cc6672975@gmail.com &nbsp;·&nbsp; 9110463341</p>
+</div>
 </section>
 
-<section>
+<div class="resume-layout">
+
+<div class="resume-main">
+
+<section class="content-card">
+<div class="section-label">01 / MY DIRECTION</div>
 <h2>Career Objective</h2>
 <p>To improve my technical knowledge and skills, gain practical experience and build a successful career through hard work and dedication.</p>
 </section>
 
-<section>
+<section class="content-card">
+<div class="section-label">02 / LEARNING PATH</div>
 <h2>Educational Qualification</h2>
 
-<table>
-<tr>
-<th>Course</th>
-<th>Institution</th>
-</tr>
+<div class="timeline">
 
-<tr>
-<td>Engineering - CSE</td>
-<td>Rajeev Institute of Technology</td>
-</tr>
+<div class="timeline-item">
+<span class="timeline-dot"></span>
+<small>ENGINEERING</small>
+<h3>Computer Science Engineering</h3>
+<p>Rajeev Institute of Technology</p>
+</div>
 
-<tr>
-<td>PUC</td>
-<td>Mangalore PU College</td>
-</tr>
+<div class="timeline-item">
+<span class="timeline-dot"></span>
+<small>PRE-UNIVERSITY</small>
+<h3>PUC</h3>
+<p>Mangalore PU College</p>
+</div>
 
-<tr>
-<td>SSLC</td>
-<td>Government Girls High School</td>
-</tr>
-</table>
+<div class="timeline-item">
+<span class="timeline-dot"></span>
+<small>SSLC</small>
+<h3>10th Standard</h3>
+<p>Government Girls High School</p>
+</div>
+
+</div>
 </section>
 
-<section>
+<section class="content-card">
+<div class="section-label">03 / WHAT I KNOW</div>
 <h2>Technical Skills</h2>
-<p>HTML, CSS, JavaScript and Python.</p>
+<div class="skill-tags">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Python</span>
+</div>
 </section>
 
-<section>
-<h2>Achievements</h2>
+</div>
+
+<aside class="resume-side">
+
+<div class="side-card">
+<span class="side-icon">✦</span>
+<h3>Achievements</h3>
 <p>Add your certificates, workshops and achievements here.</p>
-</section>
+<small>UPDATE THIS SECTION</small>
+</div>
 
-<section>
-<h2>Hobbies</h2>
+<div class="side-card side-card-pink">
+<span class="side-icon">♡</span>
+<h3>Hobbies & Interests</h3>
 <p>Add your hobbies and interests here.</p>
-</section>
+<small>YOUR PERSONAL TOUCH</small>
+</div>
 
-<button onclick="window.print()">Print Resume</button>
+</aside>
+</div>
+
+<div class="print-row">
+<button class="button button-dark" onclick="window.print()">Print Resume ↗</button>
+<a class="text-link" href="biodata.html">Next: Bio-data →</a>
+</div>
+
+</main>
 
 <footer>
-<p>© 2026 Chandana C M</p>
+<a class="brand footer-brand" href="index.html">bloom<span>.</span></a>
+<p>Made with curiosity by Chandana C M · 2026</p>
+<a href="index.html">Home ↑</a>
 </footer>
 
 </body>

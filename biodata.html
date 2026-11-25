@@ -1,100 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Bio-data</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bio-data | Chandana C M</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="script.js" defer></script>
 </head>
 <body>
 
-<header>
-<h1>My Bio-data</h1>
+<header class="site-header">
+<a class="brand" href="index.html">bloom<span>.</span></a>
 <nav>
 <a href="index.html">Home</a>
 <a href="resume.html">Resume</a>
-<a href="biodata.html">Bio-data</a>
+<a class="active" href="biodata.html">Bio-data</a>
 </nav>
 </header>
 
-<section>
+<main class="inner-page">
+
+<div class="page-top">
+<div>
+<p class="eyebrow">THE PERSONAL SIDE</p>
+<h1>My <em>Bio-data</em></h1>
+<p class="page-lead">A little more about who I am and where I come from.</p>
+</div>
+<div class="mini-flower">✿</div>
+</div>
+
+<section class="bio-banner">
+<div>
+<p class="eyebrow">HELLO, NICE TO MEET YOU</p>
+<h2>Chandana C M</h2>
+<p>Computer Science Engineering Student</p>
+</div>
+<div class="bio-mark">C<span>M</span></div>
+</section>
+
+<section class="content-card">
+<div class="section-label">01 / PERSONAL INFORMATION</div>
 <h2>Personal Details</h2>
 
-<table>
-<tr>
-<th>Full Name</th>
-<td>Chandana C M</td>
-</tr>
+<div class="details-grid">
 
-<tr>
-<th>Course</th>
-<td>Computer Science Engineering</td>
-</tr>
+<div class="detail">
+<small>FULL NAME</small>
+<strong>Chandana C M</strong>
+</div>
 
-<tr>
-<th>College</th>
-<td>Rajeev Institute of Technology</td>
-</tr>
+<div class="detail">
+<small>COURSE</small>
+<strong>Computer Science Engineering</strong>
+</div>
 
-<tr>
-<th>Email</th>
-<td>cc6672975@gmail.com</td>
-</tr>
+<div class="detail">
+<small>COLLEGE</small>
+<strong>Rajeev Institute of Technology</strong>
+</div>
 
-<tr>
-<th>Phone</th>
-<td>9110463341</td>
-</tr>
-</table>
+<div class="detail">
+<small>EMAIL</small>
+<strong>cc6672975@gmail.com</strong>
+</div>
+
+<div class="detail">
+<small>PHONE</small>
+<strong>9110463341</strong>
+</div>
+
+</div>
 </section>
 
-<section>
+<section class="content-card">
+<div class="section-label">02 / EDUCATION</div>
 <h2>Educational Details</h2>
 
-<table>
-<tr>
-<th>Qualification</th>
-<th>Institution</th>
-</tr>
+<div class="education-list">
 
-<tr>
-<td>Engineering</td>
-<td>Rajeev Institute of Technology</td>
-</tr>
+<div>
+<b>01</b>
+<span>
+<strong>Engineering</strong>
+<small>Rajeev Institute of Technology</small>
+</span>
+</div>
 
-<tr>
-<td>PUC</td>
-<td>Mangalore PU College</td>
-</tr>
+<div>
+<b>02</b>
+<span>
+<strong>PUC</strong>
+<small>Mangalore PU College</small>
+</span>
+</div>
 
-<tr>
-<td>10th</td>
-<td>Government Girls High School</td>
-</tr>
-</table>
+<div>
+<b>03</b>
+<span>
+<strong>10th Standard</strong>
+<small>Government Girls High School</small>
+</span>
+</div>
+
+</div>
 </section>
 
-<section>
+<div class="bio-bottom">
+
+<section class="content-card">
+<div class="section-label">03 / A FEW WORDS</div>
 <h2>About Me</h2>
 <p>I am Chandana C M, a Computer Science Engineering student. I am interested in learning new technologies and improving my technical knowledge.</p>
 </section>
 
-<section>
-<h2>Hobbies and Interests</h2>
+<section class="content-card">
+<div class="section-label">04 / FREE TIME</div>
+<h2>Hobbies & Interests</h2>
 <p>Reading, listening to music and learning new things.</p>
 </section>
 
-<section>
-<h2>Declaration</h2>
+</div>
+
+<section class="declaration">
+<div>
+<div class="section-label">05 / DECLARATION</div>
+<h2>Honesty matters.</h2>
 <p>I hereby declare that the information given above is true to the best of my knowledge.</p>
-<p>Place: Hassan</p>
-<p>Signature: Chandana C M</p>
+<p class="signature">Chandana C M</p>
+<small>PLACE: HASSAN</small>
+</div>
+<span class="declaration-flower">✿</span>
 </section>
 
-<button onclick="window.print()">Print Bio-data</button>
+<div class="print-row">
+<button class="button button-dark" onclick="window.print()">Print Bio-data ↗</button>
+<a class="text-link" href="resume.html">Back to Resume →</a>
+</div>
+
+</main>
 
 <footer>
-<p>© 2026 Chandana C M</p>
+<a class="brand footer-brand" href="index.html">bloom<span>.</span></a>
+<p>Made with curiosity by Chandana C M · 2026</p>
+<a href="index.html">Home ↑</a>
 </footer>
 
 </body>

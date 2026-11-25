@@ -1,50 +1,107 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 <head>
-<title>Bloomfolio - Chandana C M</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloomfolio | Chandana C M</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="script.js" defer></script>
 </head>
 <body>
 
-<header>
-<h1>Bloomfolio</h1>
+<header class="site-header">
+<a class="brand" href="index.html">bloom<span>.</span></a>
 <nav>
-<a href="index.html">Home</a>
+<a class="active" href="index.html">Home</a>
 <a href="resume.html">Resume</a>
 <a href="biodata.html">Bio-data</a>
 </nav>
 </header>
 
-<section class="home">
-<h1>Welcome to My Little World</h1>
-<h2>Hello! I am Chandana C M</h2>
-<p>I am a Computer Science Engineering student at Rajeev Institute of Technology.</p>
-<p>Welcome to my personal website. Explore my education, skills and personal details.</p>
-<a href="resume.html" class="button">View Resume</a>
-<a href="biodata.html" class="button">View Bio-data</a>
+<main>
+
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow">PORTFOLIO • 2026</p>
+<h1>Hi, I'm <span>Chandana.</span><br>Welcome to my world.</h1>
+
+<p class="hero-text">
+A Computer Science Engineering student who enjoys learning new technologies, exploring ideas and turning curiosity into skills.
+</p>
+
+<div class="hero-actions">
+<a class="button button-dark" href="resume.html">Explore my resume <span>↗</span></a>
+<a class="text-link" href="biodata.html">View bio-data</a>
+</div>
+
+<div class="quick-facts">
+<div><strong>CSE</strong><small>My course</small></div>
+<div><strong>RIT</strong><small>My college</small></div>
+<div><strong>Hassan</strong><small>My place</small></div>
+</div>
+</div>
+
+<div class="hero-visual">
+<div class="photo-frame">
+<img src="photo.jpeg" alt="Chandana's profile photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+<div class="photo-placeholder">
+<span>YOUR PHOTO</span>
+<small>Save your picture as<br><b>photo.jpg</b></small>
+</div>
+</div>
+<div class="photo-sticker">a little<br>about me ✿</div>
+<div class="orbit orbit-one"></div>
+<div class="orbit orbit-two"></div>
+</div>
 </section>
 
-<section>
-<h2>About My Website</h2>
+<section class="intro-section">
+<div class="section-label">01 / GET TO KNOW ME</div>
+<div class="intro-grid">
+<h2>Learning today.<br><em>Growing every day.</em></h2>
+<div>
+<p>I am studying Computer Science Engineering at Rajeev Institute of Technology. I am interested in building my technical knowledge and improving my skills step by step.</p>
+<a class="arrow-link" href="resume.html">A closer look at my journey <span>→</span></a>
+</div>
+</div>
+</section>
 
-<div class="box">
+<section class="cards-section">
+<div class="section-heading">
+<div>
+<div class="section-label">02 / EXPLORE</div>
+<h2>Inside my <em>portfolio</em></h2>
+</div>
+<span class="tiny-note">Choose a page to know more ↘</span>
+</div>
+
+<div class="feature-grid">
+
+<a class="feature-card resume-card" href="resume.html">
+<span class="card-number">01</span>
+<span class="card-icon">✳</span>
 <h3>My Resume</h3>
-<p>Explore my education, technical skills and achievements.</p>
-<a href="resume.html">Read More</a>
-</div>
+<p>Education, technical skills, career objective and achievements.</p>
+<span class="card-link">Open resume ↗</span>
+</a>
 
-<div class="box">
+<a class="feature-card bio-card" href="biodata.html">
+<span class="card-number">02</span>
+<span class="card-icon">✿</span>
 <h3>My Bio-data</h3>
-<p>Know more about my personal and family details.</p>
-<a href="biodata.html">Read More</a>
+<p>Personal details, educational background, interests and declaration.</p>
+<span class="card-link">Open bio-data ↗</span>
+</a>
+
 </div>
 </section>
+</main>
 
 <footer>
-<p>© 2026 Chandana C M | Bloomfolio</p>
+<a class="brand footer-brand" href="index.html">bloom<span>.</span></a>
+<p>Made with curiosity by Chandana C M · 2026</p>
+<a href="#top">Back to top ↑</a>
 </footer>
 
 </body>

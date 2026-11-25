@@ -1,18 +1,27 @@
 $(document).ready(function() {
 
-    // Hover effect
-    $(".box").hover(
+    // Hover effect on portfolio cards
+    $(".feature-card").hover(
         function() {
-            $(this).css("background-color", "#f5c1d7");
+            $(this).css("filter", "saturate(1.08)");
         },
         function() {
-            $(this).css("background-color", "#ffe6f0");
+            $(this).css("filter", "saturate(1)");
         }
     );
 
-    // Welcome message
-    $(".home h1").click(function() {
-        alert("Welcome to Chandana's Bloomfolio!");
+    // Welcome interaction
+    $(".hero h1").on("click", function() {
+        $(this).toggleClass("title-highlight");
+    });
+
+    // Highlight current navigation page
+    var page = window.location.pathname.split("/").pop() || "index.html";
+
+    $("nav a").each(function() {
+        if ($(this).attr("href") === page) {
+            $(this).addClass("active");
+        }
     });
 
 });
